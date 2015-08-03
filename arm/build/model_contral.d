@@ -1,0 +1,9 @@
+.\build\model_contral.o: ..\model_contral.c
+.\build\model_contral.o: ..\..\sdk\include\juma_sdk_api.h
+.\build\model_contral.o: ..\..\sdk\include\juma_sdk_types.h
+.\build\model_contral.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h
+.\build\model_contral.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\build\model_contral.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\build\model_contral.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\string.h
+.\build\model_contral.o: ..\model_contral.h
+.\build\model_contral.o: ..\jump.h

@@ -1,0 +1,102 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: xiao Microsoft, Microsoft, LIC=IK12Z-J2YN8-5TD3W-QR9FI-ZPP1Z-RPZWQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMCM1.DLL V1.12.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.15.0
+Dialog DLL:      TARMCM1.DLL V1.9.0.0
+ 
+<h2>Project:</h2>
+E:\JUMA\workspace\JUMA-PSM\Product\jump\arm\app.uvprojx
+Project File Date:  08/02/2015
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'Release'
+compiling app.c...
+compiling stop.c...
+compiling start.c...
+..\start.c(44): warning:  #1295-D: Deprecated declaration on_sys_open - give arg types
+  void on_sys_open();
+..\start.c: 1 warning, 0 errors
+compiling normal.c...
+..\normal.c(52): warning:  #177-D: variable "buff" was declared but never referenced
+    char buff[125];
+..\normal.c: 1 warning, 0 errors
+compiling timer.c...
+..\timer.c(6): warning:  #177-D: function "two_click" was declared but never referenced
+  static void two_click()
+..\timer.c: 1 warning, 0 errors
+compiling train1.c...
+..\train1.c(6): warning:  #177-D: function "two_click" was declared but never referenced
+  static void two_click()
+..\train1.c: 1 warning, 0 errors
+compiling train2.c...
+..\train2.c(7): warning:  #177-D: function "two_click" was declared but never referenced
+  static void two_click()
+..\train2.c: 1 warning, 0 errors
+compiling train3.c...
+..\train3.c(6): warning:  #177-D: function "two_click" was declared but never referenced
+  static void two_click()
+..\train3.c: 1 warning, 0 errors
+compiling train4.c...
+..\train4.c(6): warning:  #177-D: function "two_click" was declared but never referenced
+  static void two_click()
+..\train4.c: 1 warning, 0 errors
+compiling count.c...
+..\count.c(7): warning:  #177-D: function "two_click" was declared but never referenced
+  static void two_click(void)
+..\count.c: 1 warning, 0 errors
+compiling model_contral.c...
+..\model_contral.c(69): warning:  #236-D: controlling expression is constant
+    if(system_off) system_off();
+..\model_contral.c: 1 warning, 0 errors
+linking...
+Program Size: Code=5528 RO-data=6132 RW-data=48 ZI-data=512  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin -o build\app.bin build\app.axf
+".\build\app.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.4.3.0.pack
+                ARM::CMSIS:CORE:4.1.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 4.1.0
+
+Package Vendor: NordicSemiconductor
+                http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_Drivers/NordicSemiconductor.nRF_Drivers.3.0.0.pack
+                NordicSemiconductor::nRF_Drivers:nrf_gpio:3.0.0
+                Drivers for Nordic Semiconductor nRF family.
+   * Component: nrf_gpio Version: 3.0.0
+
+<h2>Collection of Component include folders:</h2>
+  E:\JUMA\workspace\JUMA-PSM\Product\jump\arm\RTE
+  C:\Keil_v5\ARM\PACK\ARM\CMSIS\4.3.0\CMSIS\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\7.2.1\Device\Include
+  C:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_Drivers\3.0.0\hal
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:4.1.0
+
+   * Component: NordicSemiconductor::nRF_Drivers:nrf_gpio:3.0.0
+      Include file:  hal\nrf_gpio.h
+</pre>
+</body>
+</html>
